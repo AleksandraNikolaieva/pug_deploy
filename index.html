@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scss & Pug</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/jpg">
+  </head>
+  <body>
+    <header>
+      <h1>Dream team</h1>
+    </header>
+    <section class="home" id="home">
+      <section class="staff">
+              <div><img src="./img/user1.jpg" alt="pr manager">
+                <p>pr manager</p>
+                <p>Courage is what it takes to stand up and speak, and also to sit down and listen.</p>
+              </div>
+              <div><img src="./img/user2.jpg" alt="team lead">
+                <p>team lead</p>
+                <p>We can throw stones, complain about them, stumble on them, climb over them, or build with them</p>
+              </div>
+              <div><img src="./img/user3.jpg" alt="hr">
+                <p>hr</p>
+                <p>Intelligence is not to make no mistakes, but quickly to see how to make them good.</p>
+              </div>
+      </section>
+      <section class="barchart">
+        <h2>Employee engagement scores</h2>
+        <div class="container">
+          <div class="chart">
+            <p>Engagement index</p>
+            <ul class="axisY">
+              <li>10</li>
+              <li>9</li>
+              <li>8</li>
+              <li>7</li>
+              <li>6</li>
+              <li>5</li>
+              <li>4</li>
+              <li>3</li>
+              <li>2</li>
+              <li>1</li>
+            </ul>
+            <div class="groups">
+                    <div class="job">
+                      <div class="user-1"></div>
+                      <div class="user-2"></div>
+                      <div class="user-3"></div>
+                    </div>
+                    <div class="team">
+                      <div class="user-1"></div>
+                      <div class="user-2"></div>
+                      <div class="user-3"></div>
+                    </div>
+                    <div class="supervision">
+                      <div class="user-1"></div>
+                      <div class="user-2"></div>
+                      <div class="user-3"></div>
+                    </div>
+            </div>
+            <ul class="axisX"> 
+              <li>job</li>
+              <li>team</li>
+              <li>supervision</li>
+            </ul>
+            <p>Engagement component</p>
+            <div class="legend"><span>pr manager</span><span>team lead</span><span>hr</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section>
+      <h2>Join Us!</h2>
+      <form action="#" method="post">
+              <input type="text" name="name" placeholder="name">
+              <input type="text" name="surname" placeholder="surname">
+              <input type="email" name="email" placeholder="email">
+        <p>Chose your speciality</p>
+        <div>
+                <input type="radio" name="role" value="PR" id="PR">
+                <label for="PR">PR</label>
+                <input type="radio" name="role" value="Management" id="Management">
+                <label for="Management">Management</label>
+                <input type="radio" name="role" value="Development" id="Development">
+                <label for="Development">Development</label>
+        </div>
+        <input type="submit" value="Submit">
+      </form>
+    </section><a href="#home"><img src="./img/up-arrow.svg"></a>
+  </body>
+</html>
