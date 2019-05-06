@@ -171,7 +171,8 @@ header {
     align-items: flex-end; }
     .groups > div > div {
       width: 33%;
-      text-align: center; }
+      text-align: center;
+      transition: background-color 0.4s; }
 
 .user-1 {
   background-color: #71E6E7; }
